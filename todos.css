@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #FFC300; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+header {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px; 
+    background-color: #FFC300;
+}
+main {
+    width: 90%; 
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.caixas {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content: center; 
+    width: 100%;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8 {
+    width: 170px;
+    height: 250px;
+    background-color: black;
+}
